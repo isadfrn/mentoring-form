@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Staatliches&display=swap"
+    />
+    <title>Mentoring</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="header-text">
+        <h1>Mentoring</h1>
+        <p>Fill out the form below to schedule your mentorship</p>
+      </div>
+    </header>
+
+    <main>
+      <form>
+        <div class="body-area">
+          <fieldset>
+            <legend id="personal-title">Personal information</legend>
+            <div id="name-surname">
+              <div class="field-wrapper">
+                <label for="name">Name</label>
+                <input id="name" name="lastname" type="text" required />
+              </div>
+
+              <div class="field-wrapper">
+                <label for="lastname">Lastname</label>
+                <input id="lastname" name="lastname" type="text" required />
+              </div>
+            </div>
+
+            <div class="field-wrapper">
+              <label for="email">Email <span>(type a valid email)</span></label>
+              <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="field-wrapper">
+              <label for="password"
+                >Password <span>(minimum of 6 characters)</span></label
+              >
+              <input
+                id="password"
+                name="password"
+                type="password"
+                minlength="8"
+                required
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Mentor information</legend>
+            <div class="field-wrapper">
+              <label for="mentor-name"
+                >Mentor name <span>(just first name)</span></label
+              >
+              <input id="mentor-name" name="mentor-name" type="text" required />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Available times</legend>
+
+            <div class="first">
+              <p class="time-title">First schedule</p>
+
+              <div id="first-time">
+                <div class="field-wrapper" id="large-date">
+                  <label for="first-date">Date</label>
+                  <input
+                    id="first-date"
+                    name="first-date"
+                    type="date"
+                    required
+                  />
+                </div>
+
+                <div class="field-wrapper">
+                  <label for="first-start">From</label>
+                  <input
+                    id="first-start"
+                    name="first-start"
+                    type="time"
+                    required
+                  />
+                </div>
+
+                <div class="field-wrapper">
+                  <label for="first-end">To</label>
+                  <input id="first-end" name="first-end" type="time" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="first">
+              <p class="time-title">Second schedule</p>
+              <div id="first-time">
+                <div class="field-wrapper" id="large-date">
+                  <label for="second-date">Date</label>
+                  <input
+                    id="second-date"
+                    name="second-date"
+                    type="date"
+                    required
+                  />
+                </div>
+
+                <div class="field-wrapper">
+                  <label for="second-start">From</label>
+                  <input
+                    id="second-start"
+                    name="second-start"
+                    type="time"
+                    required
+                  />
+                </div>
+
+                <div class="field-wrapper">
+                  <label for="second-end">To</label>
+                  <input
+                    id="second-end"
+                    name="second-end"
+                    type="time"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        <div class="footer-area">
+          <input type="submit" value="Save" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
