@@ -1,8 +1,8 @@
 # Mentoring Form
 
-![Languages used](https://img.shields.io/github/languages/count/isadfrn/mentoringform?style=flat-square)
-![Repository size](https://img.shields.io/github/repo-size/isadfrn/mentoringform?style=flat-square)
-![Last commit](https://img.shields.io/github/last-commit/isadfrn/mentoringform?style=flat-square)
+![Languages used](https://img.shields.io/github/languages/count/isadfrn/mentoring-form?style=flat-square)
+![Repository size](https://img.shields.io/github/repo-size/isadfrn/mentoring-form?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/isadfrn/mentoring-form?style=flat-square)
 
 ## Resources
 
