@@ -15,7 +15,7 @@
 
 ## About
 
-A fully responsive mentoring form. It's part of [Rocketseat's Explorer Bootcamp](https://www.rocketseat.com.br/explorer).
+A fully responsive mentoring form.
 
 ![Demo page preview](./assets/img/demo.png)
 
